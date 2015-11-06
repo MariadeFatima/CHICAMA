@@ -1,0 +1,73 @@
+/*p{outline: 1px solid yellow;}
+div{outline:1px solid red;}
+.container{outline:1px solid blue;}
+*{outline:1px solid purple;}*/
+/*___________________GLOBAL__________________*/
+html, body{
+	height: 100%;
+}
+.picture img{
+	width: 100%;
+}
+/*___________________HEADER__________________*/
+header{
+	background: url(img/grupal.jpg)no-repeat;
+	background-size: cover;
+	height: 650px;
+}
+.header{
+	margin-top: 50px;
+}
+.header .col-6 {
+	padding-left: 80px;
+	padding-right: 0;
+}
+/*cuadro sumate*/
+.sumate{
+	background-color: #FFAF19;
+	height: 40px;
+	margin-top: 10px;
+}
+.sumate p{
+	padding-top: 13px;
+	font-weight: bold;
+}
+.sumate a:hover{
+	color: white;
+}
+/*menu*/
+.header ul{
+	margin: 0 10px;
+}
+.header li{
+	list-style: none;
+	padding: 5px;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	color: black;
+	transition: all .5s;
+}
+a:hover{
+	color: white;
+}
+/*___________________SECTION__________________*/
+section{
+	margin-top: 50px;
+}
+section p{
+	font-weight: bold;
+	border-bottom: 1px solid black;
+}
+/*___________________FOOTER__________________*/
+footer{
+	margin-top: 50px;
+	background-color: #595856;
+	height: 80px;
+}
+footer p{
+	padding-top: 30px;
+	font-size: 15px;
+	color: white;
+}
